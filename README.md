@@ -14,13 +14,13 @@ The primary objective of this project is to classify Amazon product reviews as p
 ---
 ## 🛠️ Features
 ### 1. **Logistic Regression**
-A lightweight and efficient baseline model achieving competitive accuracy, with:
-- Balanced class weights for improved performance on imbalanced data.
-- TF-IDF for feature extraction.
+A robust baseline model that demonstrates:
+- Competitive accuracy with balanced class weights to address data imbalance.
+- Utilization of TF-IDF for effective textual representation.
 ### 2. **Explainable AI (XAI)**
 Integration of SHAP to:
-- Analyze the global importance of words influencing predictions.
-- Explain individual predictions through visualizations.
+- Visualize global feature importance, identifying the key drivers of predictions.
+- Provide local explanations, enabling a deeper understanding of individual predictions.
 ---
 ## 📂 Repository Structure
 ```
@@ -49,7 +49,7 @@ Integration of SHAP to:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Amazon-Electronics-Sentiment-XAI.git
-   cd Amazon-Electronics-Sentiment-XAI
+   cd amazon-electronics-sentiment-xai
    ```
 2. Set up a virtual environment:
    ```bash
@@ -69,21 +69,16 @@ Integration of SHAP to:
 ![Local Explanation](plots/local_explanation_0.png)
 *Figure: SHAP local explanation for a sample review.*
 ### SHAP Visualizations:
-- Global Feature Importance: Shows the top influential words.
-- Local Explanations: Explains specific predictions.
+- Global Feature Importance: Highlights the most influential words contributing to predictions.
+- Local Explanations: Provides interpretability for individual reviews.
 ---
 ## 🚩 Next Steps
-- Expand the use of Explainable AI for deeper insights.
-- Experiment with advanced NLP techniques (e.g., BERT).
+- Expand the use of Explainable AI for enhanced interpretability.
+- Experiment with advanced natural language processing models, such as BERT or GPT.
+- Explore additional feature engineering techniques to further improve model performance.
 ---
 ## 🤝 Contributing
-Contributions are welcome! Please open an issue or submit a pull request.
----
-## 📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
----
-## 👩‍💻 Author
-Francesco Gabrieli  
-25 y/o Information Engineering graduate passionate about AI, data analytics, and software engineering.
+Contributions are welcome! Feel free to open an issue or submit a pull request for improvements or feature suggestions.
+
 ---
 Ready to dive in? Let’s uncover the sentiments behind Amazon reviews together!
