@@ -1,12 +1,15 @@
 # Amazon Electronics Sentiment Analysis with Explainable AI
-Welcome to the **Amazon Electronics Sentiment Analysis** project! This repository demonstrates a comprehensive approach to sentiment analysis of product reviews from the Amazon Electronics dataset, integrating traditional machine learning and Explainable AI (XAI) techniques to provide deep insights into model behavior. Designed for scalability and interpretability, this project showcases industry-relevant practices that align with the expectations of top-tier tech companies.
+
+Welcome to the Amazon Electronics Sentiment Analysis project! This repository showcases a sophisticated approach to analyzing product reviews from the Amazon Electronics dataset. Combining machine learning and Explainable AI (XAI) techniques, the project delivers actionable insights into model predictions while adhering to industry best practices.
+
+
 ---
 ## 🚀 Project Overview
-The goal of this project is to classify Amazon reviews as **positive** or **negative**, leveraging:
-- **Machine Learning Models**: Logistic Regression.
-- **Explainable AI**: SHAP (SHapley Additive exPlanations) to interpret the model's decisions.
-- **Efficient Preprocessing**: Using TF-IDF to vectorize text.
-![Feature Importance](plots/feature_importance.png)
+The primary objective of this project is to classify Amazon product reviews as positive or negative while providing interpretability through Explainable AI methods. Key components include:
+- **Machine Learning Models**: Logistic Regression for baseline performance.
+- **Explainable AI**: SHAP (SHapley Additive exPlanations) for model interpretability.
+- **Efficient Preprocessing**: Leveraging TF-IDF vectorization for textual feature extraction.
+![Feature Importance](plots/feature_importance_improved.png)
 *Figure: SHAP global feature importance highlighting the most influential words.*
 ---
 ## 🛠️ Features
